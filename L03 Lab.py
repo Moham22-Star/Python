@@ -9,6 +9,7 @@ text = text.replace("a", "")
 text = text.replace("e", "")
 text = text.replace("i", "")
 text = text.replace("o", "")
+text = text.replace("u", "")
 print(text)
 
 # 1.2
@@ -16,14 +17,18 @@ print(text)
 #letters, e.g. ['i', 'love', 'how', ...
 # Hint: look up the .split() method https://www.w3schools.com/python/ref_string_split.asp
 text = 'I LOVE how spring is super late this year and there are no flowers and it is cold and rainy.'
+x = text.lower().split()
 
+print(x)
 
 # 1.3
 # Sometimes data has a bunch of extra whitespaces at the start or end
 # Use .strip() method to remove them from the string below.
 # ref: https://www.w3schools.com/python/ref_string_strip.asp
 text = " hello world "
+x = text.strip()
 
+print(x)
 
 # Excercise 2
 # Did you know you can create a dictionary like this:
